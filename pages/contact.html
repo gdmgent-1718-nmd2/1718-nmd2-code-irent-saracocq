@@ -7,51 +7,97 @@ navigation: yes
 title: Bootstrap 4 &mdash; Voorbeeld
 ---
 
-<div class="container">
+<div class="desktop">
+  <div class="container">
     <div class="row">
-      <div class="col-sm-3">
-            <h1>Contact</h1>
+      <div class="col-3">
+        <h1>Contact</h1>
       </div>
-        <div class="col-sm-9">
-            <div class="container">
-              <div class="row">
-                <div class="col-sm-2">
-                  <img src="images/email.png" width="55%" alt="email">
-                </div>
-                    <div class="col-sm-8">
-                      <h2>Mail Ons</h2>
-                        <p><a href="mailto:gebruiker%40provider%2Enl">concentrate@yahoo.com</a>.</p>
-                  </div>
-              </div>
-            </div>
-            <div class="container">
-                <div class="row">
-                  <div class="col-sm-2">
-                      <img src="images/telefoon.png" width="55%" alt="telefoon">
-                  </div>
-                  <div class="col-sm-8">
-                    <h2>Bel Ons</h2>
-                <p>0472 719 394</p>
-                </div>
-              </div>
-            </div>
-            <div class="container">
-                <div class="row">
-                  <div class="col-sm-2">
-                      <img src="images/locatie.png" width="55%" alt="locatie">
-                  </div>
-                      <div class="col-sm-8">
-                        <h2>Locatie</h2>
-                        <p>Industrieweg 232 <br> Mariakerke 9000 <br> België </p> 
-                      </div>
-                    </div>
-                  </div>
-                </div>
-              </div>
-            </div>
-<div class="jumbotron jumbotron-fluid">
-    <div class="container-fluid">
-      <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2506.17447733818!2d3.6694719156641056!3d51.08678744918994!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x47c37049bd261195%3A0x452db3772cf6728a!2sIndustrieweg+232%2C+9030+Gent!5e0!3m2!1snl!2sbe!4v1494180347672"
-          width="1450" height="450" frameborder="0" style="border:0" allowfullscreen></iframe>
+      <div class="col-9">
+        <div class="row">
+          <div class="col-2">
+            <img src="images/email.png" class="email" width="55%" alt="email">
+          </div>
+          <div class="col-10">
+            <h2>Mail Ons</h2>
+              <p><a href="mailto:gebruiker%40provider%2Enl">concentrate@yahoo.com</a></p>
+          </div>
+        </div>
+            
+        <div class="row">
+          <div class="col-2">
+            <img src="images/telefoon.png" class="telefoon" width="55%" alt="telefoon">
+          </div>
+          <div class="col-10">
+            <h2>Bel Ons</h2>
+            <p>0472 719 394</p>
+          </div>
+        </div>
+
+        <div class="row">
+          <div class="col-2">
+            <img src="images/locatie.png" class="locatie" width="55%" alt="locatie">
+          </div>
+          <div class="col-10">
+            <h2>Locatie</h2>
+            <p>Industrieweg 232 <br> Mariakerke 9000 <br> België </p> 
+          </div>
+        </div>
+      </div>
     </div>
+  </div>
+    <div class="jumbotron jumbotron-fluid">
+      <div class="container-fluid">
+          <iframe class="map" src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2506.17447733818!2d3.6694719156641056!3d51.08678744918994!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x47c37049bd261195%3A0x452db3772cf6728a!2sIndustrieweg+232%2C+9030+Gent!5e0!3m2!1snl!2sbe!4v1494180347672"
+          frameborder="0" style="border:0" allowfullscreen></iframe>
+      </div>
+    </div>
+  </div>
 </div>
+
+
+
+
+<div class="mobile">
+    <div class="container">
+        <div class="row">
+          <div class="col-12">
+                <h1>Contact</h1>
+          </div>
+        </div>
+        <div class="row">
+          <div class="col-4">
+              <img src="images/email.png" class="email" width="55%" alt="email">
+          </div>
+          <div class="col-8">
+              <h2>Mail Ons</h2>
+              <p><a href="mailto:gebruiker%40provider%2Enl">concentrate@yahoo.com</a></p>
+          </div>
+        </div> 
+        <div class="row">
+          <div class="col-4">
+                <img src="images/telefoon.png" class="telefoon" width="55%" alt="telefoon">
+          </div>
+          <div class="col-8">
+                <h2>Bel Ons</h2>
+                <p>0472 719 394</p>
+          </div>
+        </div>
+        <div class="row">
+            <div class="col-4">
+                <img src="images/locatie.png" class="locatie" width="55%" alt="locatie">
+            </div>
+            <div class="col-8">
+                  <h2>Locatie</h2>
+                  <p>Industrieweg 232 <br> Mariakerke 9000 <br> België </p> 
+            </div>
+        </div>
+      </div>
+<div class="jumbotron jumbotron-fluid">
+        <div class="container-fluid">
+          <iframe class="map" src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2506.17447733818!2d3.6694719156641056!3d51.08678744918994!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x47c37049bd261195%3A0x452db3772cf6728a!2sIndustrieweg+232%2C+9030+Gent!5e0!3m2!1snl!2sbe!4v1494180347672"
+              frameborder="0" style="border:0" allowfullscreen></iframe>
+        </div>
+    </div>
+  </div>
+</div

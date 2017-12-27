@@ -1,0 +1,15 @@
+@import
+"bootstrap-variables",                  // See _bootstrap-variables.scss
+"../_vendor/bootstrap/scss/bootstrap";  // See _vendor/bootstrap/scss/bootstrap.scss
+
+.center {
+    position: absolute;
+    top: 90%;
+    left: 29%;
+}
+
+.bottom-right {
+    position: absolute;
+    bottom: 10%;
+    right: 20%;
+}

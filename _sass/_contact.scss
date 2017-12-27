@@ -1,0 +1,40 @@
+@import
+"bootstrap-variables",                  // See _bootstrap-variables.scss
+"../_vendor/bootstrap/scss/bootstrap";  // See _vendor/bootstrap/scss/bootstrap.scss
+
+
+@media (min-width: 992px) {
+    .desktop {
+        display: block;
+    }
+    .mobile {
+        display: none;
+    }
+    .map { 
+        width: 1450px;
+        height: 450px; 
+    }
+}
+
+
+@media (max-width: 991px) {
+    .mobile {
+        display: block;
+    }
+    .desktop {
+        display: none;
+    }
+    .telefoon { 
+        width: 30px;
+    } 
+    .locatie { 
+        width: 30px;
+    } 
+    .email { 
+        width: 30px;
+    }
+    .map { 
+        width: 380px;
+        height: 250px;
+    }
+}
